@@ -14,8 +14,8 @@ const path = {
     build: {
         views: build,
         styles: build,
-        images: `${build}/images/`,
-        fonts: `${build}/fonts/`,
+        images: `${build}/assets/images/`,
+        fonts: `${build}/assets/fonts/`,
     },
     src: {
         views: `${src}/*.html`,

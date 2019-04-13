@@ -1,3 +1,5 @@
+@import "vars";
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -7,7 +9,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
+//TODO: set the main rooles for your web-page(fz, lh, color, bg)
+//TODO: for the rest elements (for fz, lh, padding, margin) you should use rem
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -17,11 +20,14 @@ html {
    ========================================================================== */
 
 /**
- * Remove the margin in all browsers.
- */
-
+  * Remove the margin in all browsers.
+  */
 body {
   margin: 0;
+  font-family: $font-font-name;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url('assets/images/shia.png');
 }
 
 /**

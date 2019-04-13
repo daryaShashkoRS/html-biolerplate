@@ -1,0 +1,26 @@
+@import "./../utils/vars";
+
+.points-list{
+  position: relative;
+
+  &::after{
+    content: 'It`s mobile (max-width:765px)';
+  }
+}
+
+
+@media #{$break2} {
+  .points-list {
+    &::after {
+      content: 'It`s desktop (min-width: 768px) and (max-width: 979px)';
+    }
+  }
+}
+
+@media #{$break3} {
+  .points-list {
+    &::after {
+      content: 'It`s large desktop (min-width: 980px)';
+    }
+  }
+}
